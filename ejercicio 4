@@ -1,0 +1,54 @@
+var numeroif {
+"numeroif" == 0
+if "numeroif" >= '0'
+system.out.println ("soy positivo")
+if "numeroif" < '0'
+system.out.println ("soy negativo")
+
+
+{
+int numerowhile =20
+while (contador>'0'){
+system.out.println(contador);
+numerowhile=contador+1;
+}
+}
+
+
+{
+int numerowhile ='3'
+while (contador>2){
+system.out.println();
+contador=numerowhile-1;
+}
+do{
+system.out.println (contador);
+contador=numerowhile-1;
+}while (contador>2);
+
+
+{
+for(int numerofor<=3;contador<=3;numerofor =contador+1){
+system.out.println(contador);
+}
+}
+
+
+var estacion ="verano";
+switch (estacion){
+case "verano":
+system.out.println("es verano");
+break;
+case"otoño":
+system.out.println("es otoño");
+break;
+case"invierno":
+system.out.println("es invierno");
+break;
+case"primavera":
+system.out.println("es primavera");
+break;
+default :
+system.out.println("estoy en default");
+}
+
