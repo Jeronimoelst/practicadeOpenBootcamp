@@ -1,0 +1,5 @@
+class => Persona 
+{
+privateVar=>Edad
+privateVar=>Nombre
+privateVar=>telofono 
