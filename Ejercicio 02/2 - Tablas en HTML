@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Ejercicio 02/2 - Tablas en HTML</title>
+</head>
+
+<body>
+    <h3> Libros </h3>
+    <br>
+    <table>
+        <tr>
+            <th>titulo</th>
+            <th>Autor</th>
+            <th>Año de publicacion</th>
+            <th>Enlace a Amazon</th>
+           
+        </tr>
+        <br>
+        <tr>
+            <td>Odisea</td>
+            <td>homero</td>
+            <td>100AC</td>
+            <td><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiA2Zq6ofb5AhWtT0gAHaN7Cf0YABABGgJjZQ&ohost=www.google.com&cid=CAESauD2h6et90mk0e4gG41M3NthvlNPqh_UaVDNWcpMcr7lfdSwLlv5klDKREVK6pTNIE6xeOCpQQjub-NLRNx7FvkVPOrViUOUNOg3MzAn-xzH606tSen_OsdP-9WFzdFOalOqRnmEMFtOqJs&sig=AOD64_0IozENA86zyyAhkyTD1DT36YRubg&q&adurl&ved=2ahUKEwihuJK6ofb5AhWoqZUCHdsGCNQQ0Qx6BAgEEAE">Amazon</a></td>
+        </tr>
+        <br>
+        <tr>
+            <td>Señor de los anillos</td>
+            <td>Tolkien</td>
+            <td>1974</td>
+            <td><a href="https://www.amazon.com/-/es/">Amazon</a></td>
+        </tr>
+        <br>
+        <tr>
+                <td>Spiderman</td>
+                <td>Stan Lee</td>
+                <td>1986</td>
+                <td><a href="https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping&hl=es_AR&gl=US">Amazon</a></td>
+        </tr>
+        <br>
+    </table>
+
+
+
+</body>
