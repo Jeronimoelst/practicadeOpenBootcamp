@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>multimedia</title>
+</head>
+
+<body>
+    <h1>Aprendiendo a utilizar imágenes</h1>
+    <img src="https://as01.epimg.net/meristation/imagenes/2020/10/24/noticias/1603531215_560324_1603531407_noticia_normal.jpg" alt="fornite" width="400" height="400" />
+    <br>
+    <h2>Aprendiendo a utilizar los vídeos</h2>
+    <video width="400" height="400" controls muted loop>
+    <source src="https://youtu.be/p9pf5EyOgcs?list=RDp9pf5EyOgcs" type="chicagofreestyle"/>
+</video>
+    <br>
+    <h3>Aprendiendo a utilizar los audios</h3>
+    <audio autoplay loop contrlos>
+    <source src="audioHtml.mpeg" type="cancioncita"/>
+
+</audio>
+</body>
+</html>
