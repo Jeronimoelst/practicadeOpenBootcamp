@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ganando precisión con los selectores en CSS</title>
+    <link rel="stylesheet" href="ejercicio+css">
+</head>
+
+<body>
+
+    <h1 id="titulo" class="encabezado">Lista de la compra</h1>
+    <br>
+    <ul>artículos de la compra</ul>
+    <br>
+    <li class="primerodeprimer" id="elemento-1">leche</li>
+    <li id="elemento-2">azucar</li>
+    <li id="elemento-3">yerba</li>
+    <li id="elemento-4">miel</li>
+    <li id="elemento-5">fideos</li>
+    <br>
+    <ol>supermercados más cercanos</ol>
+    <br>
+    <li id="elemento-1">coto</li>
+    <li id="elemento-2">changomas</li>
+    <li id="elemento-3">waltmark</li>
+    <li id="elemento-4">carrefur</li>
+    <li id="elemento-5">vea</li>
+    <br>
+
+</body>
+
+</html>
+
+
+
+css
+#elemento-1 {
+    color: red;
+}
+
+.primerodeprimer {
+    font-size: 2rem;
+}
