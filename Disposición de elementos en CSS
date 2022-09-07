@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disposición de elementos en CSS</title>
+    <link rel="stylesheet" href="DisposicionElementosCss">
+</head>
+
+<body>
+    <h1>Aca pasamos a las imagenes</h1>
+    <br>
+    <div class="galeria">
+        <img class="imagengaleria" src="ImagenesparaEjercicio/imagen1.jfif" alt="imagen1" />
+        <img class="imagengaleria" src="ImagenesparaEjercicio/imagen2.jfif" alt="imagen2" />
+        <img class="imagengaleria" src="ImagenesparaEjercicio/imagen3.jfif" alt="imagen3" />
+        <img class="imagengaleria" src="ImagenesparaEjercicio/imagen4.jfif" alt="imagen4" />
+        <img class="imagengaleria" src="ImagenesparaEjercicio/imagen5.jfif" alt="imagen5" />
+        <img class="imagengaleria" src="ImagenesparaEjercicio/imagen6.jfif" alt="imagen6" />
+    </div>
+
+</body>
+
+</html>
+
+
+
+CSS
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen1,
+.imagen2,
+.imagen3,
+.imgagen4,
+.imagen5,
+.imagen6 {
+    width: 300px;
+}
