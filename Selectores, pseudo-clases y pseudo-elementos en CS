@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selectores, pseudo-clases y pseudo-elementos en CSS</title>
+    <link rel="stylesheet" href="ejerciciocss">
+</head>
+
+<body>
+    <h1>Aca va el boton</h1>
+    <div class="contenedor">
+        <button id="boton">Pasa por encima</button>
+    </div>
+</body>
+
+</html>
+
+CSS.contenedor {
+    width: 300px;
+    height: 100px;
+}
+
+div .contenedor #boton:hover {
+    background-color: green;
+    color: white;
+}
