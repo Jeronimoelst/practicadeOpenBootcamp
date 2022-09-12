@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>creando formulario moderno</title>
+    <link rel="stylesheet" href="css02">
+</head>
+
+<body>
+    <div class="contanier">
+        <h1> registrate en los formularios</h1>
+        <div class="buttons">
+            <button class="googleboton">
+            <picture>
+                <img src="data:image/jpeg;base64,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"
+                alt="logogoogle"/>
+            </picture>
+            <span>registtrate con google </span>
+        </button>
+        </div>
+        <div>
+            <button class="twiterboton">
+                <picture></picture>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>o...</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="sectioninputs">
+                <label for="name">
+            <span>name</span>
+            <input id="name" name="name"/>
+        </label>
+                <label for="username">
+                <span>username</span>
+                <input id="username" name="username"/>
+            </label>
+                <label for="email">
+                    <span>email</span>
+                    <input id="email" name="email"/>
+                </label>
+                <label for="password">
+                        <span>password</span>
+                        <input id="password" name="password" placeholder="6 o mas caracteres"/>
+                    </label>
+                <label for="checkbox" class="checkboxlabel">
+                        <input type="checkbox" id="checkbox">
+                        <span>Acepto terminos y condiciones</span>
+                    </label>
+                <button type="submit" class="botonsubmit">crear cuenta</button>
+        </form>
+        </div>
+</body>
+
+</html>
+
+CSS
+<style>@import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@300 & display=swap');
+</style>font-family: 'Ubuntu',
+sans-serif;
+.contanier {
+    background-color: #161717;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 450px;
+    
+}
+
+.buttons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.googleboton {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.googleboton {
+    opacity: 0.6;
+}
+
+.googleboton span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.googleboton picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.googleboton picture img {
+    width: 75%;
+}
+
+.twiterboton {
+    color: #ccc;
+    background-color: #eeeeee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twiterboton:hover {
+    background-color: #eeeeee;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+    color: #8b8b8b;
+}
+
+.sectioninputs {
+    display: flex;
+    gap: 10px;
+    width: 100%
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-items: stretch;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label sapn {
+    font-weight: 500;
+}
+
+label input {
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0, 2s, border 0, 2s, box-shadow 0, 2s;
+}
+
+.sectioninputs label input {
+    width: 100%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #4900cf
+}
+
+label input:focus {
+    background-color: #212121;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #4900cf
+}
+
+.checkboxlabel {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxlabel input[type="checkbox"] {
+    width: 20px;
+}
+
+.checkboxlabelsapn {
+    font-weight: 400;
+}
+
+.botonsubmit {
+    background-color: #EA4c89;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botonsubmit :hover {
+    opacity: 0, 75;
+}
