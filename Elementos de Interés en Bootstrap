@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container py-5">
+        <hr>
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="fw-bold display-5">jumbotron</h1>
+                <p class="col-md-8 fs-4">Parrafo de ejemplo de la seccion de jumbotron</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        boton modal
+                      </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">titulo</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Parrafo de ejemplo de la seccion de jumbotron
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">guardar cambios</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputName">Nombre</label>
+                <input type="name" class="form-control" id="exampleInputName" aria-describedby="NameHelp" placeholder="Enter Name">
+                <small id="NameHelp" class="form-text text-muted">
+                            Nunca compartiremos su Nombre con nadie más.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputName">telefono</label>
+                <input type="name" class="form-control" id="exampleInputName" aria-describedby="NameHelp" placeholder="Enter Number">
+                <small id="NameHelp" class="form-text text-muted">
+                                Nunca compartiremos su Telefono con nadie más.</small>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Area de texto</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Subir</button>
+        </form>
+        <hr>
+        <div class="card" style="width: 15rem">
+            <img src="https://media.istockphoto.com/photos/lujan-de-cuyos-vineyards-in-the-mendoza-wine-region-argentina-picture-id1294080404?k=20&m=1294080404&s=612x612&w=0&h=5ZOFKJ4xSSxaQ-2uE9Hmtsy1ZDKNWyw151aKmZoLwsE=" class="card-img-top" alt="imagen">
+            <div class="car-header">
+                Encabezado cabezon
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">jeronimo tomas elst</h5>
+                <p class="card-text">esta es una pequeña descripcion, segun yo considero una pequeña descripcion</p>
+            </div>
+            <div class="card-footer">
+                <a href="https://www.google.com/intl/es/gmail/about/">jeronimotomaselst@gmail.com</a>
+            </div>
+        </div>
+
+
+
+
+
+        </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</html>
