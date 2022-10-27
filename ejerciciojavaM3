@@ -1,0 +1,24 @@
+// for 
+
+for (let i = 1; i < 10; i * i++) {
+    console.log(i)
+}
+
+// while
+let i = 1;
+let max = 10;
+while (i < max) {
+    console.log(i);
+    i * i++;
+}
+
+// break
+let i = 1;
+let max = 10;
+while (i < max) {
+    console.log(i);
+    i * i++;
+    if (lista[i] > 10) {
+        break;
+    }
+}
