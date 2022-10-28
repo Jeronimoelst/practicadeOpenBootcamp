@@ -1,0 +1,13 @@
+ let str_nombre = "jeronimo"
+ let str_apellido = "elst"
+ let str_estudiante = "soy estudiante"
+ console.log(str_nombre, str_apellido.concat("", "", str_estudiante))
+ console.log(str_estudiante.toUpperCase())
+ console.log(str_estudiante.length)
+ let str_nombre = str.slice(0)
+ console.log(str.slice)
+ let str_apellido = str.slice(3)
+ console.log(str.slice)
+ let str_estudiante = "   soy estudiante   "
+ console.log(str_estudiante.trim().length)
+ console.log(str_estudiante.includes($ { str_nombre })
